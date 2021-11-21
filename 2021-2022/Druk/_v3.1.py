@@ -60,6 +60,7 @@ def main(n,m,t):
             try:
                 l[j] += 1
             except:
+                
                 l.update({j:1})
     if len(l.keys()) == 1:
         s = set()
